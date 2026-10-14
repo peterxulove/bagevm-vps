@@ -34,14 +34,14 @@ tags:
 
 | 你的情况 | 推荐产品（带 aff） | 参考价 | 核心理由 |
 |---|---|---|---|
-| 要**香港原生 IP** + 移动低延迟落地 | [香港 Standard](https://www.bagevm.com/aff.php?aff=1195) | $3.99/月起（年付 $32.99） | 移动 TCPing **61ms**，是全线对国内延迟最低的亚太节点；原生 HK IP；注意流量从 2TB 起，比 Lite 少 |
-| 要**三网延迟最均衡**的日本落地 | [日本 Standard](https://www.bagevm.com/aff.php?aff=1195) | $3.99/月起（年付 $32.99） | 电 168 / 联 92 / 移 81 ms，晚高峰是**唯一三网都还站着**的节点；社区明确「新购推荐 standard」 |
-| 预算低，要便宜大碗跑流量 / AI | [香港 Lite](https://www.bagevm.com/aff.php?aff=1195) | $2.99/月起（TINY 年付 $24.74） | 4TB 流量 @1000M，社区实测「跑 AI 一个月差不多 4TB，延迟也低，主要还可以重置流量」 |
-| 要**美国原生 IP** 解锁 + 美西落地 | [洛杉矶2](https://www.bagevm.com/aff.php?aff=1195) / [洛杉矶](https://www.bagevm.com/aff.php?aff=1195) | $2.99/月起（年付 $32.99 起，不参加折扣码） | LA2 走 FiberState 原生 US IP、解锁全原生；洛杉矶（BAGE 段）GB6 单核 **2273** 为全线最高 |
-| 要日本落地 + 最强单核 | [日本 Japan](https://www.bagevm.com/aff.php?aff=1195) | $3.99/月起（年付 $32.99） | 7950X，GB6 单核 1658–1761；NTT 国际互联极强（到日本对端 4057Mbps）；**联通延迟差（577ms）** |
-| 要**欧洲落地** / 大文件中转 | [德国法兰克福](https://www.bagevm.com/aff.php?aff=1195) | $2.99/月起（年付 $24.74） | 非晚高峰三网单线程 854/812/740 全线最均衡，欧洲对端 3860Mbps；但晚高峰落差最大 |
-| 要**英国原生 IP** | [英国考文垂](https://www.bagevm.com/aff.php?aff=1195) | $2.99/月起（年付 $32.99，不参加折扣码） | 原生 GB IP；1Gbps 口、盘偏慢（4K 69MB/s），适合要英国 IP 的落地 |
-| 要中国台湾 HiNet 动态 IP | [台湾 Hinet VDS](https://www.bagevm.com/aff.php?aff=1195) | $45.55/月（6C6G/200TB@600M） | 中华电信 HiNet 动态 IP 分配；**当前缺货**，下单页有专属促销码 |
+| 要**香港原生 IP** + 移动低延迟落地 | [香港 Standard](https://www.bagevm.com/aff.php?aff=1195&pid=5) | $3.99/月起（年付 $32.99） | 移动 TCPing **61ms**，是全线对国内延迟最低的亚太节点；原生 HK IP；注意流量从 2TB 起，比 Lite 少 |
+| 要**三网延迟最均衡**的日本落地 | [日本 Standard](https://www.bagevm.com/aff.php?aff=1195&pid=72) | $3.99/月起（年付 $32.99） | 电 168 / 联 92 / 移 81 ms，晚高峰是**唯一三网都还站着**的节点；社区明确「新购推荐 standard」 |
+| 预算低，要便宜大碗跑流量 / AI | [香港 Lite](https://www.bagevm.com/aff.php?aff=1195&pid=49) | $2.99/月起（TINY 年付 $24.74） | 4TB 流量 @1000M，社区实测「跑 AI 一个月差不多 4TB，延迟也低，主要还可以重置流量」 |
+| 要**美国原生 IP** 解锁 + 美西落地 | [洛杉矶2](https://www.bagevm.com/aff.php?aff=1195&pid=90) / [洛杉矶](https://www.bagevm.com/aff.php?aff=1195&pid=90) | $2.99/月起（年付 $32.99 起，不参加折扣码） | LA2 走 FiberState 原生 US IP、解锁全原生；洛杉矶（BAGE 段）GB6 单核 **2273** 为全线最高 |
+| 要日本落地 + 最强单核 | [日本 Japan](https://www.bagevm.com/aff.php?aff=1195&pid=33) | $3.99/月起（年付 $32.99） | 7950X，GB6 单核 1658–1761；NTT 国际互联极强（到日本对端 4057Mbps）；**联通延迟差（577ms）** |
+| 要**欧洲落地** / 大文件中转 | [德国法兰克福](https://www.bagevm.com/aff.php?aff=1195&pid=40) | $2.99/月起（年付 $24.74） | 非晚高峰三网单线程 854/812/740 全线最均衡，欧洲对端 3860Mbps；但晚高峰落差最大 |
+| 要**英国原生 IP** | [英国考文垂](https://www.bagevm.com/aff.php?aff=1195&pid=35) | $2.99/月起（年付 $32.99，不参加折扣码） | 原生 GB IP；1Gbps 口、盘偏慢（4K 69MB/s），适合要英国 IP 的落地 |
+| 要中国台湾 HiNet 动态 IP | [台湾 Hinet VDS](https://www.bagevm.com/aff.php?aff=1195&pid=45) | $45.55/月（6C6G/200TB@600M） | 中华电信 HiNet 动态 IP 分配；**当前缺货**，下单页有专属促销码 |
 
 > **说明**
 > - 「参考价」= 该产品线**可下单的最便宜档位**；官网首页按月付展示，年付通常更便宜（社区实测：香港 Lite TINY 年付 $24.74、英国 TINY 年付低至 $20.01）。
@@ -137,11 +137,11 @@ BageVM 没有单独公布测试 IP，而是给每个节点提供了 **Looking Gl
 
 | 档位 | 规格 | 流量 / 带宽 | 月付 | 年付（75折后） | 购买 |
 | --- | --- | --- | --- | --- | --- |
-| TINY | 1C / 1G / 20G | 2TB @1000Mbps | $3.99 | $32.99 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| STARTER | 1C / 2G / 30G | 4TB @2000Mbps | $6.99 | $56.99 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| MEDIUM | 2C / 4G / 40G | 6TB @3000Mbps | $10.99 | $83.24 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| LARGE | 4C / 4G / 50G | 10TB @5000Mbps | $20.99 | $173.24 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| Custom | 4C / 4G / 50G | 10TB @5000Mbps | $20.99 | — | [购买](https://www.bagevm.com/aff.php?aff=1195) |
+| TINY | 1C / 1G / 20G | 2TB @1000Mbps | $3.99 | $32.99 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=5) |
+| STARTER | 1C / 2G / 30G | 4TB @2000Mbps | $6.99 | $56.99 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=6) |
+| MEDIUM | 2C / 4G / 40G | 6TB @3000Mbps | $10.99 | $83.24 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=7) |
+| LARGE | 4C / 4G / 50G | 10TB @5000Mbps | $20.99 | $173.24 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=8) |
+| Custom | 4C / 4G / 50G | 10TB @5000Mbps | $20.99 | — | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=65) |
 
 ### 香港 Lite —— 便宜大碗跑流量
 
@@ -155,10 +155,10 @@ BageVM 没有单独公布测试 IP，而是给每个节点提供了 **Looking Gl
 
 | 档位 | 规格 | 流量 / 带宽 | 月付 | 年付（75折后） | 购买 |
 | --- | --- | --- | --- | --- | --- |
-| TINY | 1C / 1G / 20G | 4TB @1000Mbps | $2.99 | $24.74 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| STARTER | 2C / 2G / 30G | 8TB @2000Mbps | $4.99 | $41.24 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| MEDIUM | 4C / 4G / 40G | 12TB @3000Mbps | $8.99 | $74.24 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| LARGE | 4C / 8G / 50G | 20TB @5000Mbps | $17.55 | $154.16 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
+| TINY | 1C / 1G / 20G | 4TB @1000Mbps | $2.99 | $24.74 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=49) |
+| STARTER | 2C / 2G / 30G | 8TB @2000Mbps | $4.99 | $41.24 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=50) |
+| MEDIUM | 4C / 4G / 40G | 12TB @3000Mbps | $8.99 | $74.24 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=51) |
+| LARGE | 4C / 8G / 50G | 20TB @5000Mbps | $17.55 | $154.16 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=52) |
 
 ### 日本 Standard —— 三网延迟最低，晚高峰唯一「都站着」
 
@@ -172,11 +172,11 @@ TCPing 三网 81/92/168ms 是全线最低；晚高峰家宽测试是**唯一三�
 
 | 档位 | 规格 | 流量 / 带宽 | 月付 | 年付（75折后） | 购买 |
 | --- | --- | --- | --- | --- | --- |
-| SMALL | 1C / 1G / 10G | 2TB @1000Mbps | $3.99 | $32.99 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| TINY | 1C / 1G / 20G | 5TB @1000Mbps | $5.99 | $53.24 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| STARTER | 1C / 2G / 30G | 8TB @2000Mbps | $10.99 | $83.24 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| MEDIUM | 2C / 4G / 40G | 12TB @3000Mbps | $20.99 | $183.74 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| LARGE | 4C / 4G / 50G | 15TB @5000Mbps | $25.99 | $214.49 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
+| SMALL | 1C / 1G / 10G | 2TB @1000Mbps | $3.99 | $32.99 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=72) |
+| TINY | 1C / 1G / 20G | 5TB @1000Mbps | $5.99 | $53.24 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=73) |
+| STARTER | 1C / 2G / 30G | 8TB @2000Mbps | $10.99 | $83.24 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=74) |
+| MEDIUM | 2C / 4G / 40G | 12TB @3000Mbps | $20.99 | $183.74 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=75) |
+| LARGE | 4C / 4G / 50G | 15TB @5000Mbps | $25.99 | $214.49 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=76) |
 
 ### 日本 Japan —— 国际互联强、单核强，但联通差
 
@@ -190,11 +190,11 @@ Ryzen 7950X，GB6 单核 1658–1761，国际互联极强（到日本对端中�
 
 | 档位 | 规格 | 流量 / 带宽 | 月付 | 年付（75折后） | 购买 |
 | --- | --- | --- | --- | --- | --- |
-| SMALL | 1C / 1G / 10G | 2TB @5000Mbps | $3.99 | $32.99 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| TINY | 1C / 1G / 10G | 5TB @5000Mbps | $5.99 | $53.24 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| STARTER | 1C / 2G / 20G | 8TB @5000Mbps | $8.99 | $74.24 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| MEDIUM | 2C / 4G / 30G | 12TB @10000Mbps | $15.99 | $141.74 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| LARGE | 4C / 4G / 40G | 20TB @10000Mbps | $25.99 | $214.49 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
+| SMALL | 1C / 1G / 10G | 2TB @5000Mbps | $3.99 | $32.99 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=33) |
+| TINY | 1C / 1G / 10G | 5TB @5000Mbps | $5.99 | $53.24 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=31) |
+| STARTER | 1C / 2G / 20G | 8TB @5000Mbps | $8.99 | $74.24 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=28) |
+| MEDIUM | 2C / 4G / 30G | 12TB @10000Mbps | $15.99 | $141.74 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=29) |
+| LARGE | 4C / 4G / 40G | 20TB @10000Mbps | $25.99 | $214.49 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=30) |
 
 ### 新加坡 Singapore / Singapore Standard —— 落地可用，IP 偏脏
 
@@ -208,11 +208,11 @@ Ryzen 7950X，GB6 单核 1658–1761，国际互联极强（到日本对端中�
 
 | 档位（Standard 线） | 规格 | 流量 / 带宽 | 月付 | 年付（75折后） | 购买 |
 | --- | --- | --- | --- | --- | --- |
-| SMALL | 1C / 1G / 10G | 2TB @1000Mbps | $3.99 | $32.99 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| TINY | 1C / 1G / 20G | 5TB @1000Mbps | $5.99 | $53.24 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| STARTER | 1C / 2G / 30G | 8TB @2000Mbps | $10.99 | $83.24 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| MEDIUM | 2C / 4G / 40G | 12TB @3000Mbps | $20.99 | $183.74 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| LARGE | 4C / 4G / 50G | 15TB @5000Mbps | $25.99 | $214.49 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
+| SMALL | 1C / 1G / 10G | 2TB @1000Mbps | $3.99 | $32.99 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=32) |
+| TINY | 1C / 1G / 20G | 5TB @1000Mbps | $5.99 | $53.24 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=18) |
+| STARTER | 1C / 2G / 30G | 8TB @2000Mbps | $10.99 | $83.24 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=19) |
+| MEDIUM | 2C / 4G / 40G | 12TB @3000Mbps | $20.99 | $183.74 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=20) |
+| LARGE | 4C / 4G / 50G | 15TB @5000Mbps | $25.99 | $214.49 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=21) |
 
 > 非 Standard 的 Singapore 线规格与日本 Japan 线同构（7950X，5000M/10000M 口），但同价流量档更高，且当前缺货。
 
@@ -232,10 +232,10 @@ GB6 单核 **2273** 是全线最高，磁盘 SEQ1M 3216MB/s 也很快。商店�
 
 | 档位 | 规格 | 流量 / 带宽 | 月付 | 年付（原价，不参加折扣） | 购买 |
 | --- | --- | --- | --- | --- | --- |
-| TINY | 1C / 1G / 20G | 4TB @1000Mbps | $2.99 | $32.99 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| STARTER | 1C / 2G / 30G | 8TB @2000Mbps | $4.99 | $54.99 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| MEDIUM | 2C / 2G / 40G | 12TB @2000Mbps | $8.99 | $98.99 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| LARGE | 3C / 4G / 50G | 20TB @3000Mbps | $14.99 | $164.99 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
+| TINY | 1C / 1G / 20G | 4TB @1000Mbps | $2.99 | $32.99 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=1) |
+| STARTER | 1C / 2G / 30G | 8TB @2000Mbps | $4.99 | $54.99 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=9) |
+| MEDIUM | 2C / 2G / 40G | 12TB @2000Mbps | $8.99 | $98.99 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=10) |
+| LARGE | 3C / 4G / 50G | 20TB @3000Mbps | $14.99 | $164.99 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=11) |
 
 ### 洛杉矶2 —— FiberState 段，解锁全原生
 
@@ -249,10 +249,10 @@ GB6 单核 **2273** 是全线最高，磁盘 SEQ1M 3216MB/s 也很快。商店�
 
 | 档位 | 规格 | 流量 / 带宽 | 月付 | 年付（原价） | 购买 |
 | --- | --- | --- | --- | --- | --- |
-| TINY | 1C / 1G / 20G | 4TB @1000Mbps | $2.99 | $32.99 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| STARTER | 1C / 2G / 30G | 8TB @2000Mbps | $4.99 | $54.99 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| MEDIUM | 2C / 2G / 40G | 12TB @2000Mbps | $8.99 | $98.99 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| LARGE | 3C / 4G / 50G | 20TB @3000Mbps | $14.99 | $164.99 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
+| TINY | 1C / 1G / 20G | 4TB @1000Mbps | $2.99 | $32.99 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=90) |
+| STARTER | 1C / 2G / 30G | 8TB @2000Mbps | $4.99 | $54.99 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=91) |
+| MEDIUM | 2C / 2G / 40G | 12TB @2000Mbps | $8.99 | $98.99 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=92) |
+| LARGE | 3C / 4G / 50G | 20TB @3000Mbps | $14.99 | $164.99 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=93) |
 
 ### 盐湖城 —— 同 FiberState 段，位置偏
 
@@ -266,10 +266,10 @@ GB6 单核 **2273** 是全线最高，磁盘 SEQ1M 3216MB/s 也很快。商店�
 
 | 档位 | 规格 | 流量 / 带宽 | 月付 | 年付（75折后） | 购买 |
 | --- | --- | --- | --- | --- | --- |
-| TINY | 1C / 1G / 20G | 4TB @1000Mbps | $2.99 | $24.74 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| STARTER | 1C / 2G / 30G | 8TB @2000Mbps | $4.99 | $41.24 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| MEDIUM | 2C / 2G / 40G | 12TB @2000Mbps | $8.99 | $74.24 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| LARGE | 3C / 4G / 50G | 20TB @3000Mbps | $14.99 | $123.74 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
+| TINY | 1C / 1G / 20G | 4TB @1000Mbps | $2.99 | $24.74 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=66) |
+| STARTER | 1C / 2G / 30G | 8TB @2000Mbps | $4.99 | $41.24 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=67) |
+| MEDIUM | 2C / 2G / 40G | 12TB @2000Mbps | $8.99 | $74.24 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=68) |
+| LARGE | 3C / 4G / 50G | 20TB @3000Mbps | $14.99 | $123.74 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=69) |
 
 ## 欧洲与台湾
 
@@ -285,10 +285,10 @@ GB6 单核 **2273** 是全线最高，磁盘 SEQ1M 3216MB/s 也很快。商店�
 
 | 档位 | 规格 | 流量 / 带宽 | 月付 | 年付（75折后） | 购买 |
 | --- | --- | --- | --- | --- | --- |
-| TINY | 1C / 1G / 20G | 4TB @1000Mbps | $2.99 | $24.74 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| STARTER | 1C / 2G / 30G | 8TB @2000Mbps | $4.99 | $41.24 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| MEDIUM | 2C / 2G / 40G | 12TB @2000Mbps | $8.99 | $74.24 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| LARGE | 3C / 4G / 50G | 20TB @3000Mbps | $14.99 | $123.74 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
+| TINY | 1C / 1G / 20G | 4TB @1000Mbps | $2.99 | $24.74 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=40) |
+| STARTER | 1C / 2G / 30G | 8TB @2000Mbps | $4.99 | $41.24 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=41) |
+| MEDIUM | 2C / 2G / 40G | 12TB @2000Mbps | $8.99 | $74.24 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=42) |
+| LARGE | 3C / 4G / 50G | 20TB @3000Mbps | $14.99 | $123.74 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=43) |
 
 ### 英国考文垂 —— 英国原生 IP
 
@@ -302,10 +302,10 @@ GB6 单核 **2273** 是全线最高，磁盘 SEQ1M 3216MB/s 也很快。商店�
 
 | 档位 | 规格 | 流量 / 带宽 | 月付 | 年付（原价） | 购买 |
 | --- | --- | --- | --- | --- | --- |
-| TINY | 1C / 1G / 10G | 4TB @1000Mbps | $2.99 | $32.99 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| STARTER | 1C / 2G / 15G | 8TB @1000Mbps | $4.99 | $54.99 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| MEDIUM | 2C / 2G / 20G | 12TB @1000Mbps | $8.99 | $98.99 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
-| LARGE | 3C / 4G / 25G | 20TB @1000Mbps | $14.99 | $164.99 | [购买](https://www.bagevm.com/aff.php?aff=1195) |
+| TINY | 1C / 1G / 10G | 4TB @1000Mbps | $2.99 | $32.99 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=35) |
+| STARTER | 1C / 2G / 15G | 8TB @1000Mbps | $4.99 | $54.99 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=36) |
+| MEDIUM | 2C / 2G / 20G | 12TB @1000Mbps | $8.99 | $98.99 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=37) |
+| LARGE | 3C / 4G / 25G | 20TB @1000Mbps | $14.99 | $164.99 | [购买](https://www.bagevm.com/aff.php?aff=1195&pid=38) |
 
 ### 台湾 Hinet VDS —— 动态 IP，当前缺货
 
@@ -313,7 +313,7 @@ GB6 单核 **2273** 是全线最高，磁盘 SEQ1M 3216MB/s 也很快。商店�
 
 唯一一条台湾线，卖点是 HiNet 动态 IP。当前**缺货**，下单页带有专属促销码 `7DEHA13B0O`（以结账页为准）。
 
-> [购买](https://www.bagevm.com/aff.php?aff=1195)（缺货时按钮会进入分类页，可关注补货）
+> [购买](https://www.bagevm.com/aff.php?aff=1195&pid=45)（缺货时按钮会进入分类页，可关注补货）
 
 ## 常见问题
 

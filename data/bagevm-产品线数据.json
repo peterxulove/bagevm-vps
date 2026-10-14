@@ -22,7 +22,8 @@
      "4TB",
      2.99,
      24.74,
-     32.99
+     32.99,
+     49
     ],
     [
      "STARTER",
@@ -33,7 +34,8 @@
      "8TB",
      4.99,
      41.24,
-     54.99
+     54.99,
+     50
     ],
     [
      "MEDIUM",
@@ -44,7 +46,8 @@
      "12TB",
      8.99,
      74.24,
-     98.99
+     98.99,
+     51
     ],
     [
      "LARGE",
@@ -55,7 +58,8 @@
      "20TB",
      17.55,
      154.16,
-     null
+     null,
+     52
     ],
     [
      "CUSTOM",
@@ -66,7 +70,8 @@
      "20TB",
      17.55,
      null,
-     null
+     null,
+     64
     ]
    ],
    "stock": {
@@ -82,7 +87,8 @@
     "375 / 0.0%"
    ],
    "order_url": "https://www.bagevm.com/index.php/store/hong-kong-lite-servers",
-   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195",
+   "aff_url_template": "https://www.bagevm.com/aff.php?aff=1195&pid={pid}"
   },
   {
    "key": "hk-std",
@@ -104,7 +110,8 @@
      "2TB",
      3.99,
      32.99,
-     null
+     null,
+     5
     ],
     [
      "STARTER",
@@ -115,7 +122,8 @@
      "4TB",
      6.99,
      56.99,
-     null
+     null,
+     6
     ],
     [
      "MEDIUM",
@@ -126,7 +134,8 @@
      "6TB",
      10.99,
      83.24,
-     null
+     null,
+     7
     ],
     [
      "LARGE",
@@ -137,7 +146,8 @@
      "10TB",
      20.99,
      173.24,
-     null
+     null,
+     8
     ],
     [
      "CUSTOM",
@@ -148,7 +158,8 @@
      "10TB",
      20.99,
      null,
-     null
+     null,
+     65
     ]
    ],
    "stock": {
@@ -164,7 +175,8 @@
     "377 / 0.01%"
    ],
    "order_url": "https://www.bagevm.com/index.php/store/hong-kong-servers",
-   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195",
+   "aff_url_template": "https://www.bagevm.com/aff.php?aff=1195&pid={pid}"
   },
   {
    "key": "jp",
@@ -186,7 +198,8 @@
      "2TB",
      3.99,
      32.99,
-     null
+     null,
+     33
     ],
     [
      "TINY",
@@ -197,7 +210,8 @@
      "5TB",
      5.99,
      53.24,
-     null
+     null,
+     31
     ],
     [
      "STARTER",
@@ -208,7 +222,8 @@
      "8TB",
      8.99,
      74.24,
-     null
+     null,
+     28
     ],
     [
      "MEDIUM",
@@ -219,7 +234,8 @@
      "12TB",
      15.99,
      141.74,
-     null
+     null,
+     29
     ],
     [
      "LARGE",
@@ -230,7 +246,8 @@
      "20TB",
      25.99,
      214.49,
-     null
+     null,
+     30
     ]
    ],
    "stock": {
@@ -246,7 +263,8 @@
     "387 / 0.41%"
    ],
    "order_url": "https://www.bagevm.com/index.php/store/japan-servers",
-   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195",
+   "aff_url_template": "https://www.bagevm.com/aff.php?aff=1195&pid={pid}"
   },
   {
    "key": "jp-std",
@@ -268,7 +286,8 @@
      "2TB",
      3.99,
      32.99,
-     null
+     null,
+     72
     ],
     [
      "TINY",
@@ -279,7 +298,8 @@
      "5TB",
      5.99,
      53.24,
-     null
+     null,
+     73
     ],
     [
      "STARTER",
@@ -290,7 +310,8 @@
      "8TB",
      10.99,
      83.24,
-     null
+     null,
+     74
     ],
     [
      "MEDIUM",
@@ -301,7 +322,8 @@
      "12TB",
      20.99,
      183.74,
-     null
+     null,
+     75
     ],
     [
      "LARGE",
@@ -312,7 +334,8 @@
      "15TB",
      25.99,
      214.49,
-     null
+     null,
+     76
     ],
     [
      "CUSTOM",
@@ -323,7 +346,8 @@
      "15TB",
      25.99,
      null,
-     null
+     null,
+     86
     ]
    ],
    "stock": {
@@ -340,7 +364,8 @@
     "168 / 0.09%"
    ],
    "order_url": "https://www.bagevm.com/index.php/store/japan-standard-servers",
-   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195",
+   "aff_url_template": "https://www.bagevm.com/aff.php?aff=1195&pid={pid}"
   },
   {
    "key": "sg",
@@ -362,7 +387,8 @@
      "2TB",
      3.99,
      32.99,
-     null
+     null,
+     32
     ],
     [
      "TINY",
@@ -373,7 +399,8 @@
      "5TB",
      5.99,
      53.24,
-     null
+     null,
+     18
     ],
     [
      "STARTER",
@@ -384,7 +411,8 @@
      "8TB",
      8.99,
      74.24,
-     null
+     null,
+     19
     ],
     [
      "MEDIUM",
@@ -395,7 +423,8 @@
      "12TB",
      15.99,
      141.74,
-     null
+     null,
+     20
     ],
     [
      "LARGE",
@@ -406,7 +435,8 @@
      "20TB",
      25.99,
      214.49,
-     null
+     null,
+     21
     ]
    ],
    "stock": {
@@ -422,7 +452,8 @@
     "404 / 3.23%"
    ],
    "order_url": "https://www.bagevm.com/index.php/store/singapore-servers",
-   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195",
+   "aff_url_template": "https://www.bagevm.com/aff.php?aff=1195&pid={pid}"
   },
   {
    "key": "sg-std",
@@ -444,7 +475,8 @@
      "2TB",
      3.99,
      32.99,
-     null
+     null,
+     77
     ],
     [
      "TINY",
@@ -455,7 +487,8 @@
      "5TB",
      5.99,
      53.24,
-     null
+     null,
+     78
     ],
     [
      "STARTER",
@@ -466,7 +499,8 @@
      "8TB",
      10.99,
      83.24,
-     null
+     null,
+     79
     ],
     [
      "MEDIUM",
@@ -477,7 +511,8 @@
      "12TB",
      20.99,
      183.74,
-     null
+     null,
+     80
     ],
     [
      "LARGE",
@@ -488,7 +523,8 @@
      "15TB",
      25.99,
      214.49,
-     null
+     null,
+     81
     ],
     [
      "CUSTOM",
@@ -499,7 +535,8 @@
      "15TB",
      25.99,
      null,
-     null
+     null,
+     85
     ]
    ],
    "stock": {
@@ -516,7 +553,8 @@
     "321 / 0%"
    ],
    "order_url": "https://www.bagevm.com/index.php/store/singapore-standard-servers",
-   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195",
+   "aff_url_template": "https://www.bagevm.com/aff.php?aff=1195&pid={pid}"
   },
   {
    "key": "la",
@@ -538,7 +576,8 @@
      "4TB",
      2.99,
      null,
-     32.99
+     32.99,
+     1
     ],
     [
      "STARTER",
@@ -549,7 +588,8 @@
      "8TB",
      4.99,
      null,
-     54.99
+     54.99,
+     9
     ],
     [
      "MEDIUM",
@@ -560,7 +600,8 @@
      "12TB",
      8.99,
      null,
-     98.99
+     98.99,
+     10
     ],
     [
      "LARGE",
@@ -571,7 +612,8 @@
      "20TB",
      14.99,
      null,
-     164.99
+     164.99,
+     11
     ]
    ],
    "stock": {
@@ -586,7 +628,8 @@
     "233 / 1.12%"
    ],
    "order_url": "https://www.bagevm.com/index.php/store/los-angeles-servers",
-   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195",
+   "aff_url_template": "https://www.bagevm.com/aff.php?aff=1195&pid={pid}"
   },
   {
    "key": "la2",
@@ -608,7 +651,8 @@
      "4TB",
      2.99,
      null,
-     32.99
+     32.99,
+     90
     ],
     [
      "STARTER",
@@ -619,7 +663,8 @@
      "8TB",
      4.99,
      null,
-     54.99
+     54.99,
+     91
     ],
     [
      "MEDIUM",
@@ -630,7 +675,8 @@
      "12TB",
      8.99,
      null,
-     98.99
+     98.99,
+     92
     ],
     [
      "LARGE",
@@ -641,7 +687,8 @@
      "20TB",
      14.99,
      null,
-     164.99
+     164.99,
+     93
     ]
    ],
    "stock": {
@@ -656,7 +703,8 @@
     "260 / 0.06%"
    ],
    "order_url": "https://www.bagevm.com/index.php/store/los-angeles2-servers",
-   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195",
+   "aff_url_template": "https://www.bagevm.com/aff.php?aff=1195&pid={pid}"
   },
   {
    "key": "slc",
@@ -678,7 +726,8 @@
      "4TB",
      2.99,
      24.74,
-     32.99
+     32.99,
+     66
     ],
     [
      "STARTER",
@@ -689,7 +738,8 @@
      "8TB",
      4.99,
      41.24,
-     54.99
+     54.99,
+     67
     ],
     [
      "MEDIUM",
@@ -700,7 +750,8 @@
      "12TB",
      8.99,
      74.24,
-     98.99
+     98.99,
+     68
     ],
     [
      "LARGE",
@@ -711,7 +762,8 @@
      "20TB",
      14.99,
      123.74,
-     164.99
+     164.99,
+     69
     ]
    ],
    "stock": {
@@ -726,7 +778,8 @@
     "247 / 0.01%"
    ],
    "order_url": "https://www.bagevm.com/index.php/store/salt-lake-city-servers",
-   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195",
+   "aff_url_template": "https://www.bagevm.com/aff.php?aff=1195&pid={pid}"
   },
   {
    "key": "de",
@@ -748,7 +801,8 @@
      "4TB",
      2.99,
      24.74,
-     32.99
+     32.99,
+     40
     ],
     [
      "STARTER",
@@ -759,7 +813,8 @@
      "8TB",
      4.99,
      41.24,
-     54.99
+     54.99,
+     41
     ],
     [
      "MEDIUM",
@@ -770,7 +825,8 @@
      "12TB",
      8.99,
      74.24,
-     98.99
+     98.99,
+     42
     ],
     [
      "LARGE",
@@ -781,7 +837,8 @@
      "20TB",
      14.99,
      123.74,
-     164.99
+     164.99,
+     43
     ]
    ],
    "stock": {
@@ -796,7 +853,8 @@
     "243 / 0.07%"
    ],
    "order_url": "https://www.bagevm.com/index.php/store/germany-servers",
-   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195",
+   "aff_url_template": "https://www.bagevm.com/aff.php?aff=1195&pid={pid}"
   },
   {
    "key": "uk",
@@ -818,7 +876,8 @@
      "4TB",
      2.99,
      null,
-     32.99
+     32.99,
+     35
     ],
     [
      "STARTER",
@@ -829,7 +888,8 @@
      "8TB",
      4.99,
      null,
-     54.99
+     54.99,
+     36
     ],
     [
      "MEDIUM",
@@ -840,7 +900,8 @@
      "12TB",
      8.99,
      null,
-     98.99
+     98.99,
+     37
     ],
     [
      "LARGE",
@@ -851,7 +912,8 @@
      "20TB",
      14.99,
      null,
-     164.99
+     164.99,
+     38
     ]
    ],
    "stock": {
@@ -866,7 +928,8 @@
     "311 / 0.67%"
    ],
    "order_url": "https://www.bagevm.com/index.php/store/united-kingdom-servers",
-   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195",
+   "aff_url_template": "https://www.bagevm.com/aff.php?aff=1195&pid={pid}"
   },
   {
    "key": "tw",
@@ -888,7 +951,8 @@
      "200TB",
      45.55,
      null,
-     null
+     null,
+     45
     ]
    ],
    "stock": {
@@ -896,7 +960,8 @@
    },
    "tcp": null,
    "order_url": "https://www.bagevm.com/index.php/store/tw-hinet-vds",
-   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195",
+   "aff_url_template": "https://www.bagevm.com/aff.php?aff=1195&pid={pid}"
   }
  ]
 }

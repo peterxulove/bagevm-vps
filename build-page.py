@@ -9,7 +9,18 @@ LINES = {l["key"]: l for l in D["lines"]}
 
 def buy(label="购买入口", big=False, pid=None):
     cls = "buy big" if big else "buy"
-    return f'<a class="{cls}" href="{AFF}" target="_blank" rel="nofollow sponsored">{label}</a>'
+    href = f"{AFF}&pid={pid}" if pid else AFF
+    return f'<a class="{cls}" href="{href}" target="_blank" rel="nofollow sponsored">{label}</a>'
+
+
+def first_pid(key):
+    """产品线第一条可下单档位的 pid（用于产品线级购买按钮）。"""
+    for t in LINES[key]["tiers"]:
+        name = t[0]
+        pid = t[9] if len(t) > 9 else None
+        if name != "CUSTOM" and pid:
+            return pid
+    return None
 
 def stars(n):
     """n: 0-3 -> ★★★ style spans"""
@@ -21,7 +32,8 @@ def tier_rows(key, kind):
     """kind: 'annual_promo' | 'annual_orig' | 'none'"""
     ln = LINES[key]
     rows = []
-    for (name, c, r, d, bw, tf, mo, ap, ao) in ln["tiers"]:
+    for t in ln["tiers"]:
+        name, c, r, d, bw, tf, mo, ap, ao, pid = (list(t) + [None] * 10)[:10]
         if name == "CUSTOM":
             continue
         if kind == "annual_promo":
@@ -36,13 +48,14 @@ def tier_rows(key, kind):
             stock_txt = ' <span class="tag t-red">缺货</span>'
         elif isinstance(stock, int) and stock > 0:
             stock_txt = f' <span class="tag t-green">{stock} 台</span>'
+        buy_link = f"{AFF}&pid={pid}" if pid else AFF
         rows.append(
             f'<tr><td><strong>{name}</strong>{stock_txt}</td>'
             f'<td class="mono">{c}C / {r}G / {d}G</td>'
             f'<td class="mono">{tf} @{bw}Mbps</td>'
             f'<td class="num">${mo}<div class="cyc">月付</div></td>'
             f'<td class="num">{annual}</td>'
-            f'<td><a href="{AFF}" target="_blank" rel="nofollow sponsored">购买</a></td></tr>')
+            f'<td><a href="{buy_link}" target="_blank" rel="nofollow sponsored">购买</a></td></tr>')
     return "\n".join(rows)
 
 def tier_table(key, annual_label="年付（75折后）", kind="annual_promo"):
@@ -311,7 +324,7 @@ nav.toc a{{margin-right:16px;font-size:13px;white-space:nowrap;line-height:2}}
 <div class="isprow"><span class="ispchip">中国电信 {stars(1)}</span><span class="ispchip">中国联通 {stars(1)}</span><span class="ispchip">中国移动 {stars(3)}</span></div>
 <div class="note">NS958987 评论「去年还没这么红，现在连移动都不行了，不过国际还行」「国际互联还是不错的。不然就对不起这个价格」。（证据强度：实测）</div>
 {tier_table("hk-std", "年付（75折后）")}
-<div class="buyrow">{buy("购买入口")}<a class="plain" href="https://www.bagevm.com/index.php/store/hong-kong-servers" target="_blank">官网分类页</a></div>
+<div class="buyrow">{buy("购买入口", pid=first_pid("hk-std"))}<a class="plain" href="https://www.bagevm.com/index.php/store/hong-kong-servers" target="_blank">官网分类页</a></div>
 </div>
 
 <div class="line" id="l-hk-lite">
@@ -321,7 +334,7 @@ nav.toc a{{margin-right:16px;font-size:13px;white-space:nowrap;line-height:2}}
 <div class="isprow"><span class="ispchip">中国电信 {stars(1)}</span><span class="ispchip">中国联通 {stars(1)}</span><span class="ispchip">中国移动 {stars(2)}</span></div>
 <div class="note">NS968629：「现在部分地区移动直连还不错」「24.79 刀一年……主要还可以重置流量」；NS960808 提示「因为 NTT 炸了，导致这个机器到 raw.githubusercontent.com / debian 官方镜像等使用 fastly cdn 的路由全部绕新加坡，并且晚高峰单线程会跌到 200kb/s 以下」。（证据强度：实测）</div>
 {tier_table("hk-lite", "年付（75折后）")}
-<div class="buyrow">{buy("购买入口")}<a class="plain" href="https://www.bagevm.com/index.php/store/hong-kong-lite-servers" target="_blank">官网分类页</a></div>
+<div class="buyrow">{buy("购买入口", pid=first_pid("hk-lite"))}<a class="plain" href="https://www.bagevm.com/index.php/store/hong-kong-lite-servers" target="_blank">官网分类页</a></div>
 </div>
 
 <div class="line" id="l-jp-std">
@@ -331,7 +344,7 @@ nav.toc a{{margin-right:16px;font-size:13px;white-space:nowrap;line-height:2}}
 <div class="isprow"><span class="ispchip">中国电信 {stars(2)}</span><span class="ispchip">中国联通 {stars(2)}</span><span class="ispchip">中国移动 {stars(3)}</span></div>
 <div class="note">NS938368 总参篇：「日本 Standard 是唯一晚高峰三网都还站着的」；评论区对「买日本还是日本 standard」的回复是「新购的话，推荐 standard」。（证据强度：实测）</div>
 {tier_table("jp-std", "年付（75折后）")}
-<div class="buyrow">{buy("购买入口")}<a class="plain" href="https://www.bagevm.com/index.php/store/japan-standard-servers" target="_blank">官网分类页</a></div>
+<div class="buyrow">{buy("购买入口", pid=first_pid("jp-std"))}<a class="plain" href="https://www.bagevm.com/index.php/store/japan-standard-servers" target="_blank">官网分类页</a></div>
 </div>
 
 <div class="line" id="l-jp">
@@ -341,7 +354,7 @@ nav.toc a{{margin-right:16px;font-size:13px;white-space:nowrap;line-height:2}}
 <div class="isprow"><span class="ispchip">中国电信 {stars(1)}</span><span class="ispchip">中国联通 {stars(1)}</span><span class="ispchip">中国移动 {stars(2)}</span></div>
 <div class="note">NS938368 总参篇：日本节点「晚高峰联通 0」；社区另有「JPS 5000M」等 5Gbps 口留档帖（NS946908）。（证据强度：实测）</div>
 {tier_table("jp", "年付（75折后）")}
-<div class="buyrow">{buy("购买入口")}<a class="plain" href="https://www.bagevm.com/index.php/store/japan-servers" target="_blank">官网分类页</a></div>
+<div class="buyrow">{buy("购买入口", pid=first_pid("jp"))}<a class="plain" href="https://www.bagevm.com/index.php/store/japan-servers" target="_blank">官网分类页</a></div>
 </div>
 
 <div class="line" id="l-sg">
@@ -351,7 +364,9 @@ nav.toc a{{margin-right:16px;font-size:13px;white-space:nowrap;line-height:2}}
 <div class="isprow"><span class="ispchip">中国电信 {stars(1)}</span><span class="ispchip">中国联通 {stars(2)}</span><span class="ispchip">中国移动 {stars(2)}</span></div>
 <div class="note">NS929010：「脏的我都有点怀疑人生了，我都想换个 IP 了」「这 IP 质量认真的吗」；NS933606：「bage 的 IP 一直挺脏的，不过好在解锁优秀，相比灵车而言足够稳定，凑合用」。（证据强度：实测）</div>
 {tier_table("sg-std", "年付（75折后）")}
-<div class="buyrow">{buy("购买入口")}<a class="plain" href="https://www.bagevm.com/index.php/store/singapore-standard-servers" target="_blank">官网分类页（Standard）</a><a class="plain" href="https://www.bagevm.com/index.php/store/singapore-servers" target="_blank">非 Standard</a></div>
+<h4 style="margin-top:18px">Singapore（非 Standard 线，7950X / 5000M–10000M 口）</h4>
+{tier_table("sg", "年付（75折后）")}
+<div class="buyrow">{buy("购买入口", pid=first_pid("sg-std"))}<a class="plain" href="https://www.bagevm.com/index.php/store/singapore-standard-servers" target="_blank">官网分类页（Standard）</a><a class="plain" href="https://www.bagevm.com/index.php/store/singapore-servers" target="_blank">非 Standard</a></div>
 </div>
 </section>
 
@@ -366,7 +381,7 @@ nav.toc a{{margin-right:16px;font-size:13px;white-space:nowrap;line-height:2}}
 <div class="isprow"><span class="ispchip">中国电信 {stars(1)}</span><span class="ispchip">中国联通 {stars(1)}</span><span class="ispchip">中国移动 {stars(1)}</span></div>
 <div class="note">NS955372（$8.95/季）评论「还不错」；NS938368 总参篇：「要做解锁和美西落地，选洛杉矶 2；要 webnx 而且有耐心能等到货，选洛杉矶」。（证据强度：实测）</div>
 {tier_table("la", "年付（原价，不参加折扣）", "annual_orig")}
-<div class="buyrow">{buy("购买入口")}<a class="plain" href="https://www.bagevm.com/index.php/store/los-angeles-servers" target="_blank">官网分类页</a></div>
+<div class="buyrow">{buy("购买入口", pid=first_pid("la"))}<a class="plain" href="https://www.bagevm.com/index.php/store/los-angeles-servers" target="_blank">官网分类页</a></div>
 </div>
 
 <div class="line" id="l-la2">
@@ -376,7 +391,7 @@ nav.toc a{{margin-right:16px;font-size:13px;white-space:nowrap;line-height:2}}
 <div class="isprow"><span class="ispchip">中国电信 {stars(1)}</span><span class="ispchip">中国联通 {stars(1)}</span><span class="ispchip">中国移动 {stars(1)}</span></div>
 <div class="note">NS911593（LA2 LARGE 年付 $115.49，七折）正面留档；NS926112 评论「国际互联还可以」；NS938368 总参篇：「要做解锁和美西落地，选洛杉矶 2」。（证据强度：实测）</div>
 {tier_table("la2", "年付（原价，不参加折扣）", "annual_orig")}
-<div class="buyrow">{buy("购买入口")}<a class="plain" href="https://www.bagevm.com/index.php/store/los-angeles2-servers" target="_blank">官网分类页</a></div>
+<div class="buyrow">{buy("购买入口", pid=first_pid("la2"))}<a class="plain" href="https://www.bagevm.com/index.php/store/los-angeles2-servers" target="_blank">官网分类页</a></div>
 </div>
 
 <div class="line" id="l-slc">
@@ -386,7 +401,7 @@ nav.toc a{{margin-right:16px;font-size:13px;white-space:nowrap;line-height:2}}
 <div class="isprow"><span class="ispchip">中国电信 {stars(1)}</span><span class="ispchip">中国联通 {stars(1)}</span><span class="ispchip">中国移动 {stars(1)}</span></div>
 <div class="note">NS942520（Salt Lake City TINY）留档；NS938368 总参篇：「盐湖城看需求吧」「盐湖城移动晚高峰单线程只有 25 Mbps」。（证据强度：实测）</div>
 {tier_table("slc", "年付（75折后）")}
-<div class="buyrow">{buy("购买入口")}<a class="plain" href="https://www.bagevm.com/index.php/store/salt-lake-city-servers" target="_blank">官网分类页</a></div>
+<div class="buyrow">{buy("购买入口", pid=first_pid("slc"))}<a class="plain" href="https://www.bagevm.com/index.php/store/salt-lake-city-servers" target="_blank">官网分类页</a></div>
 </div>
 </section>
 
@@ -400,7 +415,7 @@ nav.toc a{{margin-right:16px;font-size:13px;white-space:nowrap;line-height:2}}
 <div class="isprow"><span class="ispchip">中国电信 {stars(1)}</span><span class="ispchip">中国联通 {stars(2)}</span><span class="ispchip">中国移动 {stars(1)}</span></div>
 <div class="note">NS933135（DE Tiny）：「75 折买了个机，刚装完系统，发现全红。不过还好是只做落地用，也无所谓了」；同帖评论「刚买完 IP 就被墙的话可以联系换吧」→ 帖主成功换了新 IP。NS938368 总参篇：「如果你在做欧洲落地或大文件中转，选法兰克福 STARTER」。（证据强度：实测）</div>
 {tier_table("de", "年付（75折后）")}
-<div class="buyrow">{buy("购买入口")}<a class="plain" href="https://www.bagevm.com/index.php/store/germany-servers" target="_blank">官网分类页</a></div>
+<div class="buyrow">{buy("购买入口", pid=first_pid("de"))}<a class="plain" href="https://www.bagevm.com/index.php/store/germany-servers" target="_blank">官网分类页</a></div>
 </div>
 
 <div class="line" id="l-uk">
@@ -410,7 +425,7 @@ nav.toc a{{margin-right:16px;font-size:13px;white-space:nowrap;line-height:2}}
 <div class="isprow"><span class="ispchip">中国电信 {stars(1)}</span><span class="ispchip">中国联通 {stars(1)}</span><span class="ispchip">中国移动 {stars(1)}</span></div>
 <div class="note">NS952610 帖主：「年付 $20.01 USD」，与 EUGameHost UK 微机对比「貌似 IP 质量要好一些」；NS938368 总参篇：「如果你必须要英国 IP，选伦敦 STARTER」。（证据强度：实测）</div>
 {tier_table("uk", "年付（原价，不参加折扣）", "annual_orig")}
-<div class="buyrow">{buy("购买入口")}<a class="plain" href="https://www.bagevm.com/index.php/store/united-kingdom-servers" target="_blank">官网分类页</a></div>
+<div class="buyrow">{buy("购买入口", pid=first_pid("uk"))}<a class="plain" href="https://www.bagevm.com/index.php/store/united-kingdom-servers" target="_blank">官网分类页</a></div>
 </div>
 
 <div class="line" id="l-tw">
@@ -418,7 +433,7 @@ nav.toc a{{margin-right:16px;font-size:13px;white-space:nowrap;line-height:2}}
 <p class="lead">中国台湾 · <strong>中华电信 HiNet（动态 IP，由 HiNet 分配）</strong> · 6C / 6G / 60G / 200TB @600Mbps · <strong>$45.55/月</strong></p>
 <p>唯一一条台湾线，卖点是 HiNet 动态 IP。当前<strong>缺货</strong>，下单页带有专属促销码 <code>7DEHA13B0O</code>（以结账页为准）。</p>
 {tier_table("tw", "年付")}
-<div class="buyrow">{buy("购买入口")}<a class="plain" href="https://www.bagevm.com/index.php/store/tw-hinet-vds" target="_blank">官网分类页</a></div>
+<div class="buyrow">{buy("购买入口", pid=first_pid("tw"))}<a class="plain" href="https://www.bagevm.com/index.php/store/tw-hinet-vds" target="_blank">官网分类页</a></div>
 </div>
 </section>
 

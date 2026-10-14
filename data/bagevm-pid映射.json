@@ -1,0 +1,238 @@
+{
+ "los-angeles-servers": [
+  {
+   "name": "Los Angeles - TINY 2 Available",
+   "pid": 1
+  },
+  {
+   "name": "Los Angeles - STARTER",
+   "pid": 9
+  },
+  {
+   "name": "Los Angeles - MEDIUM",
+   "pid": 10
+  },
+  {
+   "name": "Los Angeles - LARGE",
+   "pid": 11
+  }
+ ],
+ "los-angeles2-servers": [
+  {
+   "name": "Los Angeles2 - TINY 0 Available",
+   "pid": 90
+  },
+  {
+   "name": "Los Angeles2 - STARTER",
+   "pid": 91
+  },
+  {
+   "name": "Los Angeles2 - MEDIUM",
+   "pid": 92
+  },
+  {
+   "name": "Los Angeles2 - LARGE",
+   "pid": 93
+  }
+ ],
+ "salt-lake-city-servers": [
+  {
+   "name": "Salt Lake City - TINY",
+   "pid": 66
+  },
+  {
+   "name": "Salt Lake City - STARTER",
+   "pid": 67
+  },
+  {
+   "name": "Salt Lake City - MEDIUM",
+   "pid": 68
+  },
+  {
+   "name": "Salt Lake City - LARGE",
+   "pid": 69
+  }
+ ],
+ "hong-kong-servers": [
+  {
+   "name": "Hong Kong Standard - TINY",
+   "pid": 5
+  },
+  {
+   "name": "Hong Kong Standard - STARTER",
+   "pid": 6
+  },
+  {
+   "name": "Hong Kong Standard - MEDIUM",
+   "pid": 7
+  },
+  {
+   "name": "Hong Kong Standard - LARGE",
+   "pid": 8
+  },
+  {
+   "name": "Hong Kong Standard - Custom",
+   "pid": 65
+  }
+ ],
+ "hong-kong-lite-servers": [
+  {
+   "name": "Hong Kong Lite - TINY",
+   "pid": 49
+  },
+  {
+   "name": "Hong Kong Lite - STARTER",
+   "pid": 50
+  },
+  {
+   "name": "Hong Kong Lite - MEDIUM",
+   "pid": 51
+  },
+  {
+   "name": "Hong Kong Lite - LARGE",
+   "pid": 52
+  },
+  {
+   "name": "Hong Kong Lite - Custom",
+   "pid": 64
+  }
+ ],
+ "singapore-servers": [
+  {
+   "name": "Singapore - SMALL 0 Available",
+   "pid": 32
+  },
+  {
+   "name": "Singapore - TINY 0 Available",
+   "pid": 18
+  },
+  {
+   "name": "Singapore - STARTER 0 Available",
+   "pid": 19
+  },
+  {
+   "name": "Singapore - MEDIUM 1 Available",
+   "pid": 20
+  },
+  {
+   "name": "Singapore - LARGE 0 Available",
+   "pid": 21
+  }
+ ],
+ "singapore-standard-servers": [
+  {
+   "name": "Singapore Standard - SMALL",
+   "pid": 77
+  },
+  {
+   "name": "Singapore Standard - TINY",
+   "pid": 78
+  },
+  {
+   "name": "Singapore Standard - STARTER",
+   "pid": 79
+  },
+  {
+   "name": "Singapore Standard - MEDIUM",
+   "pid": 80
+  },
+  {
+   "name": "Singapore Standard - LARGE",
+   "pid": 81
+  },
+  {
+   "name": "Singapore Standard - Custom",
+   "pid": 85
+  }
+ ],
+ "japan-servers": [
+  {
+   "name": "Japan - SMALL 0 Available",
+   "pid": 33
+  },
+  {
+   "name": "Japan - TINY 0 Available",
+   "pid": 31
+  },
+  {
+   "name": "Japan - STARTER 0 Available",
+   "pid": 28
+  },
+  {
+   "name": "Japan - MEDIUM 0 Available",
+   "pid": 29
+  },
+  {
+   "name": "Japan - LARGE 2 Available",
+   "pid": 30
+  }
+ ],
+ "japan-standard-servers": [
+  {
+   "name": "Japan Standard - SMALL",
+   "pid": 72
+  },
+  {
+   "name": "Japan Standard - TINY",
+   "pid": 73
+  },
+  {
+   "name": "Japan Standard - STARTER",
+   "pid": 74
+  },
+  {
+   "name": "Japan Standard - MEDIUM",
+   "pid": 75
+  },
+  {
+   "name": "Japan Standard - LARGE",
+   "pid": 76
+  },
+  {
+   "name": "Japan Standard - Custom",
+   "pid": 86
+  }
+ ],
+ "united-kingdom-servers": [
+  {
+   "name": "United Kingdom - TINY 0 Available",
+   "pid": 35
+  },
+  {
+   "name": "United Kingdom - STARTER 4 Available",
+   "pid": 36
+  },
+  {
+   "name": "United Kingdom - MEDIUM 1 Available",
+   "pid": 37
+  },
+  {
+   "name": "United Kingdom - LARGE 3 Available",
+   "pid": 38
+  }
+ ],
+ "germany-servers": [
+  {
+   "name": "Germany - TINY",
+   "pid": 40
+  },
+  {
+   "name": "Germany - STARTER",
+   "pid": 41
+  },
+  {
+   "name": "Germany - MEDIUM",
+   "pid": 42
+  },
+  {
+   "name": "Germany - LARGE",
+   "pid": 43
+  }
+ ],
+ "tw-hinet-vds": [
+  {
+   "name": "Hinet Dynamic 600M 0 Available",
+   "pid": 45
+  }
+ ]
+}

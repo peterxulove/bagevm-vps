@@ -19,7 +19,7 @@ def order_block(items, indent="    "):
 
 PLAN_ORDER = ["file.name", "product_name", "region", "series", "spec_cpu", "spec_traffic",
               "bandwidth_mbps", "traffic_gb", "price", "annual_price", "price_usd",
-              "stock", "buyable", "aff_link"]
+              "stock", "buyable", "pid", "aff_link"]
 
 PLAN_PROPS = """properties:
   name:
@@ -60,13 +60,15 @@ PLAN_PROPS = """properties:
     displayName: 库存
   buyable:
     displayName: 可下单
+  pid:
+    displayName: pid
   aff_link:
     displayName: 推广链接
   formula.per_gb:
     displayName: 每GB流量成本
 """
 
-LINE_ORDER = ["file.name", "region", "series", "segment", "cpu", "upstream", "isp_best", "isp_ok",
+LINE_ORDER = ["file.name", "region", "series", "segment", "cpu", "upstream", "pid_from", "isp_best", "isp_ok",
               "isp_avoid", "isp_basis", "price_from", "tier_count", "lg", "aff_link"]
 
 LINE_PROPS = """properties:
@@ -110,6 +112,8 @@ LINE_PROPS = """properties:
     displayName: 运营商说明
   isp_source:
     displayName: 证据帖
+  pid_from:
+    displayName: 起档pid
   aff_link:
     displayName: 推广链接
   formula.isp_fit:
@@ -324,6 +328,19 @@ formulas:
 """ + order_block(["file.name", "product_name", "traffic_gb", "price_usd",
                    "formula.per_gb", "buyable"]) + """    sort:
       - property: formula.per_gb
+        direction: ASC
+  - type: table
+    name: pid 对照
+    order:
+      - pid
+      - file.name
+      - product_name
+      - spec_cpu
+      - price
+      - stock
+      - aff_link
+    sort:
+      - property: pid
         direction: ASC
   - type: table
     name: 当前可下单

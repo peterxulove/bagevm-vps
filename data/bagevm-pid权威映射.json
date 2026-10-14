@@ -1,0 +1,552 @@
+{
+ "1": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "2": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "3": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "4": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "5": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "6": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "7": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "8": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "9": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "10": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "11": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "12": {
+  "kind": "oos",
+  "slug": "los-angeles-servers/min",
+  "final": "/index.php/store/los-angeles-servers/min"
+ },
+ "13": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "14": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "15": {
+  "kind": "oos",
+  "slug": "hong-kong-servers/min-1",
+  "final": "/index.php/store/hong-kong-servers/min-1"
+ },
+ "16": {
+  "kind": "oos",
+  "slug": "hong-kong-servers/min-2",
+  "final": "/index.php/store/hong-kong-servers/min-2"
+ },
+ "17": {
+  "kind": "oos",
+  "slug": "singapore-servers/singapore-servers-min",
+  "final": "/index.php/store/singapore-servers/singapore-servers-min"
+ },
+ "18": {
+  "kind": "oos",
+  "slug": "singapore-servers/singapore-servers-tiny",
+  "final": "/index.php/store/singapore-servers/singapore-servers-tiny"
+ },
+ "19": {
+  "kind": "oos",
+  "slug": "singapore-servers/singapore-servers-starter",
+  "final": "/index.php/store/singapore-servers/singapore-servers-starter"
+ },
+ "20": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "21": {
+  "kind": "oos",
+  "slug": "singapore-servers/singapore-servers-large",
+  "final": "/index.php/store/singapore-servers/singapore-servers-large"
+ },
+ "22": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "23": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "24": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "25": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "26": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "27": {
+  "kind": "oos",
+  "slug": "japan-servers/japan-min",
+  "final": "/index.php/store/japan-servers/japan-min"
+ },
+ "28": {
+  "kind": "oos",
+  "slug": "japan-servers/japan-starter",
+  "final": "/index.php/store/japan-servers/japan-starter"
+ },
+ "29": {
+  "kind": "oos",
+  "slug": "japan-servers/japan-medium",
+  "final": "/index.php/store/japan-servers/japan-medium"
+ },
+ "30": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "31": {
+  "kind": "oos",
+  "slug": "japan-servers/japan-tiny",
+  "final": "/index.php/store/japan-servers/japan-tiny"
+ },
+ "32": {
+  "kind": "oos",
+  "slug": "singapore-servers/singapore-small",
+  "final": "/index.php/store/singapore-servers/singapore-small"
+ },
+ "33": {
+  "kind": "oos",
+  "slug": "japan-servers/japan-small",
+  "final": "/index.php/store/japan-servers/japan-small"
+ },
+ "34": {
+  "kind": "oos",
+  "slug": "united-kingdom-servers/united-kingdom-servers-min",
+  "final": "/index.php/store/united-kingdom-servers/united-kingdom-servers-min"
+ },
+ "35": {
+  "kind": "oos",
+  "slug": "united-kingdom-servers/united-kingdom-servers-tiny",
+  "final": "/index.php/store/united-kingdom-servers/united-kingdom-servers-tiny"
+ },
+ "36": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "37": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "38": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "39": {
+  "kind": "oos",
+  "slug": "germany-servers/germany-min",
+  "final": "/index.php/store/germany-servers/germany-min"
+ },
+ "40": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "41": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "42": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "43": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "44": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "45": {
+  "kind": "oos",
+  "slug": "tw-hinet-vds/tw-hinet-vds",
+  "final": "/index.php/store/tw-hinet-vds/tw-hinet-vds"
+ },
+ "46": {
+  "kind": "oos",
+  "slug": "germany-servers/germany-servers-strong-tiny",
+  "final": "/index.php/store/germany-servers/germany-servers-strong-tiny"
+ },
+ "47": {
+  "kind": "oos",
+  "slug": "germany-servers/germany-servers-strong-starter",
+  "final": "/index.php/store/germany-servers/germany-servers-strong-starter"
+ },
+ "48": {
+  "kind": "oos",
+  "slug": "flash-sales/germany-tiny-1",
+  "final": "/index.php/store/flash-sales/germany-tiny-1"
+ },
+ "49": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "50": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "51": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "52": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "53": {
+  "kind": "oos",
+  "slug": "flash-sales/los-angeles-11tiny",
+  "final": "/index.php/store/flash-sales/los-angeles-11tiny"
+ },
+ "54": {
+  "kind": "oos",
+  "slug": "flash-sales/germany-11tiny",
+  "final": "/index.php/store/flash-sales/germany-11tiny"
+ },
+ "55": {
+  "kind": "oos",
+  "slug": "flash-sales/los-angeles-bftiny",
+  "final": "/index.php/store/flash-sales/los-angeles-bftiny"
+ },
+ "56": {
+  "kind": "oos",
+  "slug": "flash-sales/germany-bftiny",
+  "final": "/index.php/store/flash-sales/germany-bftiny"
+ },
+ "57": {
+  "kind": "oos",
+  "slug": "flash-sales/hong-kong-lite-bftiny",
+  "final": "/index.php/store/flash-sales/hong-kong-lite-bftiny"
+ },
+ "58": {
+  "kind": "oos",
+  "slug": "flash-sales/hong-kong-bftiny",
+  "final": "/index.php/store/flash-sales/hong-kong-bftiny"
+ },
+ "59": {
+  "kind": "oos",
+  "slug": "flash-sales/united-kingdom-bftiny",
+  "final": "/index.php/store/flash-sales/united-kingdom-bftiny"
+ },
+ "60": {
+  "kind": "oos",
+  "slug": "flash-sales/japan-bfmin",
+  "final": "/index.php/store/flash-sales/japan-bfmin"
+ },
+ "61": {
+  "kind": "oos",
+  "slug": "flash-sales/japan-bftiny",
+  "final": "/index.php/store/flash-sales/japan-bftiny"
+ },
+ "62": {
+  "kind": "oos",
+  "slug": "flash-sales/germany-starter-1",
+  "final": "/index.php/store/flash-sales/germany-starter-1"
+ },
+ "63": {
+  "kind": "oos",
+  "slug": "flash-sales/hong-kong-bfmin",
+  "final": "/index.php/store/flash-sales/hong-kong-bfmin"
+ },
+ "64": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "65": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "66": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "67": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "68": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "69": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "70": {
+  "kind": "oos",
+  "slug": "flash-sales/los-angeles-newyeartiny",
+  "final": "/index.php/store/flash-sales/los-angeles-newyeartiny"
+ },
+ "71": {
+  "kind": "oos",
+  "slug": "flash-sales/salt-lake-city-newyeartiny",
+  "final": "/index.php/store/flash-sales/salt-lake-city-newyeartiny"
+ },
+ "72": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "73": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "74": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "75": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "76": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "77": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "78": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "79": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "80": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "81": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "82": {
+  "kind": "oos",
+  "slug": "flash-sales/united-kingdom-newyeartiny",
+  "final": "/index.php/store/flash-sales/united-kingdom-newyeartiny"
+ },
+ "83": {
+  "kind": "oos",
+  "slug": "flash-sales/singapore-standard-tiny",
+  "final": "/index.php/store/flash-sales/singapore-standard-tiny"
+ },
+ "84": {
+  "kind": "oos",
+  "slug": "lir-services/dedicated-servers",
+  "final": "/index.php/store/lir-services/dedicated-servers"
+ },
+ "85": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "86": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "87": {
+  "kind": "oos",
+  "slug": "flash-sales/japan-standard-bfmin",
+  "final": "/index.php/store/flash-sales/japan-standard-bfmin"
+ },
+ "88": {
+  "kind": "oos",
+  "slug": "flash-sales/japan-standard-bftiny",
+  "final": "/index.php/store/flash-sales/japan-standard-bftiny"
+ },
+ "89": {
+  "kind": "oos",
+  "slug": "flash-sales/singapore-standard-min",
+  "final": "/index.php/store/flash-sales/singapore-standard-min"
+ },
+ "90": {
+  "kind": "oos",
+  "slug": "los-angeles2-servers/los-angeles-tiny",
+  "final": "/index.php/store/los-angeles2-servers/los-angeles-tiny"
+ },
+ "91": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "92": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "93": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "94": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "95": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "96": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "97": {
+  "kind": "instock",
+  "slug": "",
+  "final": "/cart.php?a=confproduct&i=0"
+ },
+ "98": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "99": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "100": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "101": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "102": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "103": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "104": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "105": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "106": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "107": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "108": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "109": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ },
+ "110": {
+  "kind": "invalid",
+  "slug": "",
+  "final": "/index.php/store/los-angeles-servers"
+ }
+}

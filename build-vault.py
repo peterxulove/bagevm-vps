@@ -17,6 +17,7 @@ SRC = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 POSTS_DIR = os.path.join(VAULT, "nodeseek-test", "帖子")
 
 AFF = "1195"
+AFF_BASE = f"https://www.bagevm.com/aff.php?aff={AFF}"
 VENDOR = "BageVM"
 TODAY = "2026-10-14"
 
@@ -174,8 +175,8 @@ wr("厂商/BageVM.md", fm({
     "lg_entry": "http://lg.bagevm.net/",
     "affiliate_page": "https://www.bagevm.com/affiliates.php",
     "aff_param": AFF,
-    "aff_link": f"https://www.bagevm.com/aff.php?aff={AFF}",
-    "aff_template": f"https://www.bagevm.com/aff.php?aff={AFF}",
+    "aff_link": AFF_BASE,
+    "aff_template": f"{AFF_BASE}&pid={{pid}}",
     "scrape_tool": "outputs/bagevm-vps/bagevm-store-scan.py",
     "scrape_note": "curl 直抓各 /index.php/store/<slug> 分类页；官网只公开月付价，年付价在购物车 JS 流里抓不到",
     "company": "BAGE CLOUD LLC",
@@ -221,12 +222,14 @@ BageVM（**BAGE CLOUD LLC**）是一家全球大带宽云服务器提供商，�
 ## 推广链接格式
 
 ```
-通用链接：https://www.bagevm.com/aff.php?aff={AFF}
+通用链接：{AFF_BASE}
+档位级  ：{AFF_BASE}&pid=<pid>
 ```
 
 - 面板为 WHMCS，推广走标准机制：`aff.php?aff=ID` 写入 `WHMCSAffiliateID` Cookie，之后下单计入推广。
-- 官网产品页 URL 形如 `/index.php/store/<slug>`，`<slug>` 为**产品线**级（如 `los-angeles-servers`）；
-  档位级 `/index.php/store/<slug>/<tier>` 会 302 回分类页，**没有 pid 级 aff 链接**。
+- **支持档位级 pid 参数**：`aff.php?aff={AFF}&pid=<pid>` 会 302 到 `cart.php?a=add&pid=<pid>`，
+  直达对应档位；pid 见 [[BageVM-pid对照表]]（2026-10-14 全量扫描 1–110）。
+- 官网产品页 URL 形如 `/index.php/store/<slug>`（`<slug>` 为产品线级）；档位级 `/store/<slug>/<tier>` 会 302 回分类页。
 
 ## 价格调整记录
 
@@ -339,6 +342,8 @@ for l in lines:
     tcp = l.get("tcp")
     tcp_txt = f"移动 {tcp[0]}　|　联通 {tcp[1]}　|　电信 {tcp[2]}" if tcp else "无数据"
 
+    _first_pid = next(((_t[9] if len(_t) > 9 else None) for _t in tiers if _t[0] != "CUSTOM" and len(_t) > 9 and _t[9]), None)
+    _line_aff = f'{AFF_BASE}&pid={_first_pid}' if _first_pid else l["aff_url"]
     wr(f"产品线/{lf}.md", fm({
         "type": "product_line", "name": l["name"], "vendor": f"[[{VENDOR}]]",
         "region": l["loc"], "cpu": l["cpu"], "upstream": l["carriers"],
@@ -351,7 +356,8 @@ for l in lines:
         "isp_best": best, "isp_ok": ok, "isp_avoid": avoid,
         "isp_basis": ("实测" if tcp else "无数据"),
         "isp_note": meta["note"], "isp_source": meta["src"],
-        "aff_link": l["aff_url"],
+        "pid_from": _first_pid,
+        "aff_link": (f'{AFF_BASE}&pid={_first_pid}' if _first_pid else l["aff_url"]),
         "tags": ["vps", "vps/product"],
     }) + f"""
 # {l['name']}
@@ -391,7 +397,7 @@ for l in lines:
 
 ## 购买链接
 
-<{l['aff_url']}>
+<{_line_aff}>
 
 ## 档位
 
@@ -404,7 +410,8 @@ for l in lines:
     stats["line"] += 1
 
     # 套餐
-    for (name, c, r, d, bw, tf, mo, ap, ao) in tiers:
+    for _t in tiers:
+        name, c, r, d, bw, tf, mo, ap, ao, pid = (list(_t) + [None]*10)[:10]
         tname = f"{l['name']} - {name}"
         pf = safe(f"{VENDOR}-{l['name']}-{name}")
         stock_n = l["stock"].get(name)
@@ -428,7 +435,8 @@ for l in lines:
             price=mo, unit="月付", price_usd=price_usd,
             annual_price=ap if ap else (ao if ao else None),
             stock=stock_cn, stock_raw=stock_raw, buyable="是" if stock_cn == "在售" else "否",
-            aff_link=l["aff_url"], store_url=l["order_url"],
+            aff_link=(f'{AFF_BASE}&pid={pid}' if pid else l["aff_url"]),
+            pid=pid, store_url=l["order_url"],
         )
         annual_txt = (f"${ap}（75折后）" if ap else (f"${ao}（原价）" if ao else "—"))
         wr(f"套餐/{pf}.md", fm({**row, "tags": ["vps", "vps/plan"]}) + f"""
@@ -448,7 +456,7 @@ for l in lines:
 
 ## 推广链接
 
-<{l['aff_url']}>
+<{row['aff_link']}>
 
 ## 抓取入口
 

@@ -21,7 +21,19 @@ BageVM 12 条产品线、8 个国家/地区节点的线路与价格梳理：
 数据来自 BageVM 官网全量产品表（2026-10-14 扫描）+ NodeSeek 社区 37 篇实测帖子的正文与评论，均已标注来源。
 
 > 价格与库存为抓取时点快照，随时可能变动，以官网实时信息为准。
-> 页内购买链接含推广参数（aff=1195），通过链接下单不影响你的价格。
+> 页内购买链接含推广参数（aff=1195）**并带档位 pid**：`aff.php?aff=1195&pid=NNN`，点击直达对应档位。
+> 完整 pid 对照见 [Obsidian 库 `厂商/BageVM-pid对照表.md`](file:///Users/peter/Documents/Obsidian%20Vault/bagevm/厂商/BageVM-pid对照表.md)。
+
+## 档位 pid（推广链接参数）
+
+BageVM 面板是 WHMCS，`aff.php?aff=1195&pid=<pid>` 会 302 到 `cart.php?a=add&pid=<pid>`，直达该档位。
+pid 已通过遍历 1–110 逐个核对（用「加入购物车 → 配置页」读出真实产品名）：
+
+- **在售 53 档**全部带 pid（见 `data/bagevm-产品线数据.json` 每个档位元组第 10 位）
+- 另发现 **5 个其他在售产品**：IPv6 地址租赁(44)、IPv4 地址租赁(95)、GDCM-1000M(94)、盐湖城 MAX(96)、IP Transit(97)
+- 以及 **29 个历史/缺货 pid**（隐藏 `min` 档、德国 Strong 线、`flash-sales/*` 节日闪购档）
+
+脚本：`bagevm-pid-scan.py`（从商店页按钮 id 提取）、`bagevm-pid-full.py`（遍历 1–110 读产品名）、`build-pid-note.py`（生成对照表笔记）
 
 ## 已回写的 Obsidian 库
 
