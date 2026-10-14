@@ -2,7 +2,8 @@
 
 BageVM（bagevm.com · BAGE CLOUD LLC）VPS 全产品线推荐与选购指南
 
-- 在线页面：https://peterxulove.github.io/bagevm-vps/bagevm-vps-guide.html
+- 在线页面（GitHub Pages）：https://peterxulove.github.io/bagevm-vps/bagevm-vps-guide.html
+- 在线页面（Google Sites，嵌入上面那页）：https://sites.google.com/view/bagevm-vps
 - 一分钟选型结论（Markdown）：[bagevm-一分钟选型结论.md](bagevm-一分钟选型结论.md)
 - 完整页 Markdown 版：[bagevm-vps-guide.md](bagevm-vps-guide.md)
 
