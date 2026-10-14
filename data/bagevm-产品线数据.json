@@ -1,0 +1,902 @@
+{
+ "aff": "https://www.bagevm.com/aff.php?aff=1195",
+ "scraped_at": "2026-10-14",
+ "lines": [
+  {
+   "key": "hk-lite",
+   "name": "香港 Lite",
+   "loc": "中国香港",
+   "cpu": "AMD EPYC 7663 / DDR4",
+   "carriers": "PCCWG+TELSTRA+NTT+Cogent+HE+HKIX+EIE",
+   "lg": "lg-hkb.bagevm.net",
+   "store": "hong-kong-lite-servers",
+   "tier_slug": null,
+   "verdict": "大带宽落地",
+   "tiers": [
+    [
+     "TINY",
+     1,
+     1,
+     20,
+     1000,
+     "4TB",
+     2.99,
+     24.74,
+     32.99
+    ],
+    [
+     "STARTER",
+     2,
+     2,
+     30,
+     2000,
+     "8TB",
+     4.99,
+     41.24,
+     54.99
+    ],
+    [
+     "MEDIUM",
+     4,
+     4,
+     40,
+     3000,
+     "12TB",
+     8.99,
+     74.24,
+     98.99
+    ],
+    [
+     "LARGE",
+     4,
+     8,
+     50,
+     5000,
+     "20TB",
+     17.55,
+     154.16,
+     null
+    ],
+    [
+     "CUSTOM",
+     4,
+     8,
+     50,
+     5000,
+     "20TB",
+     17.55,
+     null,
+     null
+    ]
+   ],
+   "stock": {
+    "TINY": null,
+    "STARTER": null,
+    "MEDIUM": null,
+    "LARGE": null,
+    "CUSTOM": null
+   },
+   "tcp": [
+    "310 / 0.06%",
+    "384 / 1.78%",
+    "375 / 0.0%"
+   ],
+   "order_url": "https://www.bagevm.com/index.php/store/hong-kong-lite-servers",
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+  },
+  {
+   "key": "hk-std",
+   "name": "香港 Standard",
+   "loc": "中国香港",
+   "cpu": "AMD EPYC 7663 / DDR4",
+   "carriers": "PCCWG+TELSTRA+NTT+Lumen+Retn+Cogent+HE+HKIX+EIE",
+   "lg": "lg-hka.bagevm.net",
+   "store": "hong-kong-servers",
+   "tier_slug": null,
+   "verdict": "移动低延迟",
+   "tiers": [
+    [
+     "TINY",
+     1,
+     1,
+     20,
+     1000,
+     "2TB",
+     3.99,
+     32.99,
+     null
+    ],
+    [
+     "STARTER",
+     1,
+     2,
+     30,
+     2000,
+     "4TB",
+     6.99,
+     56.99,
+     null
+    ],
+    [
+     "MEDIUM",
+     2,
+     4,
+     40,
+     3000,
+     "6TB",
+     10.99,
+     83.24,
+     null
+    ],
+    [
+     "LARGE",
+     4,
+     4,
+     50,
+     5000,
+     "10TB",
+     20.99,
+     173.24,
+     null
+    ],
+    [
+     "CUSTOM",
+     4,
+     4,
+     50,
+     5000,
+     "10TB",
+     20.99,
+     null,
+     null
+    ]
+   ],
+   "stock": {
+    "TINY": null,
+    "STARTER": null,
+    "MEDIUM": null,
+    "LARGE": null,
+    "CUSTOM": null
+   },
+   "tcp": [
+    "61 / 0.01%",
+    "363 / 1.82%",
+    "377 / 0.01%"
+   ],
+   "order_url": "https://www.bagevm.com/index.php/store/hong-kong-servers",
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+  },
+  {
+   "key": "jp",
+   "name": "日本 Japan",
+   "loc": "日本东京",
+   "cpu": "AMD Ryzen 9 7950X / DDR5",
+   "carriers": "NTT+Cogent+Lumen+HE",
+   "lg": "lg-jpa.bagevm.net",
+   "store": "japan-servers",
+   "tier_slug": null,
+   "verdict": "国际强/回国一般",
+   "tiers": [
+    [
+     "SMALL",
+     1,
+     1,
+     10,
+     5000,
+     "2TB",
+     3.99,
+     32.99,
+     null
+    ],
+    [
+     "TINY",
+     1,
+     1,
+     10,
+     5000,
+     "5TB",
+     5.99,
+     53.24,
+     null
+    ],
+    [
+     "STARTER",
+     1,
+     2,
+     20,
+     5000,
+     "8TB",
+     8.99,
+     74.24,
+     null
+    ],
+    [
+     "MEDIUM",
+     2,
+     4,
+     30,
+     10000,
+     "12TB",
+     15.99,
+     141.74,
+     null
+    ],
+    [
+     "LARGE",
+     4,
+     4,
+     40,
+     10000,
+     "20TB",
+     25.99,
+     214.49,
+     null
+    ]
+   ],
+   "stock": {
+    "SMALL": 0,
+    "TINY": 0,
+    "STARTER": 0,
+    "MEDIUM": 0,
+    "LARGE": 2
+   },
+   "tcp": [
+    "119 / 0.41%",
+    "577 / 3.3%",
+    "387 / 0.41%"
+   ],
+   "order_url": "https://www.bagevm.com/index.php/store/japan-servers",
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+  },
+  {
+   "key": "jp-std",
+   "name": "日本 Standard",
+   "loc": "日本东京",
+   "cpu": "AMD EPYC 7663 / DDR4",
+   "carriers": "PCCWG+TELSTRA+NTT+Lumen+Cogent+EIE",
+   "lg": "lg-jpb.bagevm.net",
+   "store": "japan-standard-servers",
+   "tier_slug": null,
+   "verdict": "三网延迟最低",
+   "tiers": [
+    [
+     "SMALL",
+     1,
+     1,
+     10,
+     1000,
+     "2TB",
+     3.99,
+     32.99,
+     null
+    ],
+    [
+     "TINY",
+     1,
+     1,
+     20,
+     1000,
+     "5TB",
+     5.99,
+     53.24,
+     null
+    ],
+    [
+     "STARTER",
+     1,
+     2,
+     30,
+     2000,
+     "8TB",
+     10.99,
+     83.24,
+     null
+    ],
+    [
+     "MEDIUM",
+     2,
+     4,
+     40,
+     3000,
+     "12TB",
+     20.99,
+     183.74,
+     null
+    ],
+    [
+     "LARGE",
+     4,
+     4,
+     50,
+     5000,
+     "15TB",
+     25.99,
+     214.49,
+     null
+    ],
+    [
+     "CUSTOM",
+     4,
+     4,
+     50,
+     5000,
+     "15TB",
+     25.99,
+     null,
+     null
+    ]
+   ],
+   "stock": {
+    "SMALL": null,
+    "TINY": null,
+    "STARTER": null,
+    "MEDIUM": null,
+    "LARGE": null,
+    "CUSTOM": null
+   },
+   "tcp": [
+    "81 / 0.01%",
+    "92 / 1.67%",
+    "168 / 0.09%"
+   ],
+   "order_url": "https://www.bagevm.com/index.php/store/japan-standard-servers",
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+  },
+  {
+   "key": "sg",
+   "name": "新加坡 Singapore",
+   "loc": "新加坡",
+   "cpu": "AMD Ryzen 9 7950X / DDR5",
+   "carriers": "NTT+Cogent+Lumen+HE",
+   "lg": "lg-sga.bagevm.net",
+   "store": "singapore-servers",
+   "tier_slug": null,
+   "verdict": "IP偏脏/基本缺货",
+   "tiers": [
+    [
+     "SMALL",
+     1,
+     1,
+     10,
+     5000,
+     "2TB",
+     3.99,
+     32.99,
+     null
+    ],
+    [
+     "TINY",
+     1,
+     1,
+     10,
+     5000,
+     "5TB",
+     5.99,
+     53.24,
+     null
+    ],
+    [
+     "STARTER",
+     1,
+     2,
+     20,
+     5000,
+     "8TB",
+     8.99,
+     74.24,
+     null
+    ],
+    [
+     "MEDIUM",
+     2,
+     4,
+     30,
+     10000,
+     "12TB",
+     15.99,
+     141.74,
+     null
+    ],
+    [
+     "LARGE",
+     4,
+     4,
+     40,
+     10000,
+     "20TB",
+     25.99,
+     214.49,
+     null
+    ]
+   ],
+   "stock": {
+    "SMALL": 0,
+    "TINY": 0,
+    "STARTER": 0,
+    "MEDIUM": 1,
+    "LARGE": 0
+   },
+   "tcp": [
+    "99 / 0.01%",
+    "531 / 2.83%",
+    "404 / 3.23%"
+   ],
+   "order_url": "https://www.bagevm.com/index.php/store/singapore-servers",
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+  },
+  {
+   "key": "sg-std",
+   "name": "新加坡 Standard",
+   "loc": "新加坡",
+   "cpu": "AMD EPYC 7663 / DDR4",
+   "carriers": "PCCWG+TELSTRA+NTT+Lumen+Cogent+EIE",
+   "lg": "lg-sgb.bagevm.net",
+   "store": "singapore-standard-servers",
+   "tier_slug": null,
+   "verdict": "落地可用",
+   "tiers": [
+    [
+     "SMALL",
+     1,
+     1,
+     10,
+     1000,
+     "2TB",
+     3.99,
+     32.99,
+     null
+    ],
+    [
+     "TINY",
+     1,
+     1,
+     20,
+     1000,
+     "5TB",
+     5.99,
+     53.24,
+     null
+    ],
+    [
+     "STARTER",
+     1,
+     2,
+     30,
+     2000,
+     "8TB",
+     10.99,
+     83.24,
+     null
+    ],
+    [
+     "MEDIUM",
+     2,
+     4,
+     40,
+     3000,
+     "12TB",
+     20.99,
+     183.74,
+     null
+    ],
+    [
+     "LARGE",
+     4,
+     4,
+     50,
+     5000,
+     "15TB",
+     25.99,
+     214.49,
+     null
+    ],
+    [
+     "CUSTOM",
+     4,
+     4,
+     50,
+     5000,
+     "15TB",
+     25.99,
+     null,
+     null
+    ]
+   ],
+   "stock": {
+    "SMALL": null,
+    "TINY": null,
+    "STARTER": null,
+    "MEDIUM": null,
+    "LARGE": null,
+    "CUSTOM": null
+   },
+   "tcp": [
+    "106 / 0.02%",
+    "284 / 1.76%",
+    "321 / 0%"
+   ],
+   "order_url": "https://www.bagevm.com/index.php/store/singapore-standard-servers",
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+  },
+  {
+   "key": "la",
+   "name": "洛杉矶 Los Angeles",
+   "loc": "美国洛杉矶",
+   "cpu": "AMD Ryzen 9 7900(标称)/9950X3D(实测) / DDR5",
+   "carriers": "TATA+GTT+Comcast",
+   "lg": "lg-usa.bagevm.net",
+   "store": "los-angeles-servers",
+   "tier_slug": null,
+   "verdict": "原生IP美西落地",
+   "tiers": [
+    [
+     "TINY",
+     1,
+     1,
+     20,
+     1000,
+     "4TB",
+     2.99,
+     null,
+     32.99
+    ],
+    [
+     "STARTER",
+     1,
+     2,
+     30,
+     2000,
+     "8TB",
+     4.99,
+     null,
+     54.99
+    ],
+    [
+     "MEDIUM",
+     2,
+     2,
+     40,
+     2000,
+     "12TB",
+     8.99,
+     null,
+     98.99
+    ],
+    [
+     "LARGE",
+     3,
+     4,
+     50,
+     3000,
+     "20TB",
+     14.99,
+     null,
+     164.99
+    ]
+   ],
+   "stock": {
+    "TINY": null,
+    "STARTER": null,
+    "MEDIUM": null,
+    "LARGE": null
+   },
+   "tcp": [
+    "242 / 0.7%",
+    "239 / 1.78%",
+    "233 / 1.12%"
+   ],
+   "order_url": "https://www.bagevm.com/index.php/store/los-angeles-servers",
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+  },
+  {
+   "key": "la2",
+   "name": "洛杉矶2 Los Angeles2",
+   "loc": "美国洛杉矶",
+   "cpu": "AMD Ryzen 9 9950X / DDR5",
+   "carriers": "TATA+GTT+PCCW",
+   "lg": "lg-usc.bagevm.net",
+   "store": "los-angeles2-servers",
+   "tier_slug": null,
+   "verdict": "解锁/美西落地首选",
+   "tiers": [
+    [
+     "TINY",
+     1,
+     1,
+     20,
+     1000,
+     "4TB",
+     2.99,
+     null,
+     32.99
+    ],
+    [
+     "STARTER",
+     1,
+     2,
+     30,
+     2000,
+     "8TB",
+     4.99,
+     null,
+     54.99
+    ],
+    [
+     "MEDIUM",
+     2,
+     2,
+     40,
+     2000,
+     "12TB",
+     8.99,
+     null,
+     98.99
+    ],
+    [
+     "LARGE",
+     3,
+     4,
+     50,
+     3000,
+     "20TB",
+     14.99,
+     null,
+     164.99
+    ]
+   ],
+   "stock": {
+    "TINY": null,
+    "STARTER": null,
+    "MEDIUM": null,
+    "LARGE": null
+   },
+   "tcp": [
+    "228 / 0.1%",
+    "224 / 1.86%",
+    "260 / 0.06%"
+   ],
+   "order_url": "https://www.bagevm.com/index.php/store/los-angeles2-servers",
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+  },
+  {
+   "key": "slc",
+   "name": "盐湖城 Salt Lake City",
+   "loc": "美国盐湖城",
+   "cpu": "AMD Ryzen 9 9950X / DDR5",
+   "carriers": "Cogent+GTT+He+Lumen+PCCW",
+   "lg": "lg-usb.bagevm.net",
+   "store": "salt-lake-city-servers",
+   "tier_slug": null,
+   "verdict": "美中落地/位置偏",
+   "tiers": [
+    [
+     "TINY",
+     1,
+     1,
+     20,
+     1000,
+     "4TB",
+     2.99,
+     24.74,
+     32.99
+    ],
+    [
+     "STARTER",
+     1,
+     2,
+     30,
+     2000,
+     "8TB",
+     4.99,
+     41.24,
+     54.99
+    ],
+    [
+     "MEDIUM",
+     2,
+     2,
+     40,
+     2000,
+     "12TB",
+     8.99,
+     74.24,
+     98.99
+    ],
+    [
+     "LARGE",
+     3,
+     4,
+     50,
+     3000,
+     "20TB",
+     14.99,
+     123.74,
+     164.99
+    ]
+   ],
+   "stock": {
+    "TINY": null,
+    "STARTER": null,
+    "MEDIUM": null,
+    "LARGE": null
+   },
+   "tcp": [
+    "259 / 0.01%",
+    "223 / 1.73%",
+    "247 / 0.01%"
+   ],
+   "order_url": "https://www.bagevm.com/index.php/store/salt-lake-city-servers",
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+  },
+  {
+   "key": "de",
+   "name": "德国法兰克福 Germany",
+   "loc": "德国法兰克福",
+   "cpu": "AMD Ryzen 9 7950X(标称)/9950X(实测) / DDR5",
+   "carriers": "Cogent+NTT+GTT+Lumen",
+   "lg": "lg-dea.bagevm.net",
+   "store": "germany-servers",
+   "tier_slug": null,
+   "verdict": "欧洲落地最强",
+   "tiers": [
+    [
+     "TINY",
+     1,
+     1,
+     20,
+     1000,
+     "4TB",
+     2.99,
+     24.74,
+     32.99
+    ],
+    [
+     "STARTER",
+     1,
+     2,
+     30,
+     2000,
+     "8TB",
+     4.99,
+     41.24,
+     54.99
+    ],
+    [
+     "MEDIUM",
+     2,
+     2,
+     40,
+     2000,
+     "12TB",
+     8.99,
+     74.24,
+     98.99
+    ],
+    [
+     "LARGE",
+     3,
+     4,
+     50,
+     3000,
+     "20TB",
+     14.99,
+     123.74,
+     164.99
+    ]
+   ],
+   "stock": {
+    "TINY": null,
+    "STARTER": null,
+    "MEDIUM": null,
+    "LARGE": null
+   },
+   "tcp": [
+    "255 / 0.01%",
+    "183 / 1.75%",
+    "243 / 0.07%"
+   ],
+   "order_url": "https://www.bagevm.com/index.php/store/germany-servers",
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+  },
+  {
+   "key": "uk",
+   "name": "英国考文垂 United Kingdom",
+   "loc": "英国考文垂(商店页)/伦敦(社区)",
+   "cpu": "AMD Ryzen 9 7900(标称)/9950X(实测) / DDR5",
+   "carriers": "NTT+GTT+PCCW",
+   "lg": "lg-gba.bagevm.net",
+   "store": "united-kingdom-servers",
+   "tier_slug": null,
+   "verdict": "英国原生IP",
+   "tiers": [
+    [
+     "TINY",
+     1,
+     1,
+     10,
+     1000,
+     "4TB",
+     2.99,
+     null,
+     32.99
+    ],
+    [
+     "STARTER",
+     1,
+     2,
+     15,
+     1000,
+     "8TB",
+     4.99,
+     null,
+     54.99
+    ],
+    [
+     "MEDIUM",
+     2,
+     2,
+     20,
+     1000,
+     "12TB",
+     8.99,
+     null,
+     98.99
+    ],
+    [
+     "LARGE",
+     3,
+     4,
+     25,
+     1000,
+     "20TB",
+     14.99,
+     null,
+     164.99
+    ]
+   ],
+   "stock": {
+    "TINY": 0,
+    "STARTER": 4,
+    "MEDIUM": 1,
+    "LARGE": 3
+   },
+   "tcp": [
+    "396 / 0.6%",
+    "261 / 2.36%",
+    "311 / 0.67%"
+   ],
+   "order_url": "https://www.bagevm.com/index.php/store/united-kingdom-servers",
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+  },
+  {
+   "key": "tw",
+   "name": "台湾 Hinet VDS",
+   "loc": "中国台湾",
+   "cpu": "—",
+   "carriers": "中华电信 HiNet（动态 IP）",
+   "lg": "lg-twa.bagevm.net",
+   "store": "tw-hinet-vds",
+   "tier_slug": null,
+   "verdict": "HiNet动态IP/缺货",
+   "tiers": [
+    [
+     "Hinet Dynamic 600M",
+     6,
+     6,
+     60,
+     600,
+     "200TB",
+     45.55,
+     null,
+     null
+    ]
+   ],
+   "stock": {
+    "Hinet Dynamic 600M": 0
+   },
+   "tcp": null,
+   "order_url": "https://www.bagevm.com/index.php/store/tw-hinet-vds",
+   "aff_url": "https://www.bagevm.com/aff.php?aff=1195"
+  }
+ ]
+}
