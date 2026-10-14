@@ -22,6 +22,23 @@ BageVM 12 条产品线、8 个国家/地区节点的线路与价格梳理：
 > 价格与库存为抓取时点快照，随时可能变动，以官网实时信息为准。
 > 页内购买链接含推广参数（aff=1195），通过链接下单不影响你的价格。
 
+## 已回写的 Obsidian 库
+
+整理结果同步写入了 Obsidian 库 `~/Documents/Obsidian Vault/bagevm/`（结构对齐 `bytevirt/`）：
+
+| 目录 | 数量 | 内容 |
+|------|------|------|
+| `首页.md` | 1 | 总览 dashboard（导航 + 查询配方 + 字段说明 + 嵌入视图） |
+| `厂商/` | 3 | BageVM 厂商资料、测试 IP 与 Looking Glass、社交媒体账号 |
+| `产品线/` | 12 | 每条产品线：地区 / 系列 / 上游 / 三网 TCPing / 运营商适配 / 推广链接 |
+| `套餐/` | 53 | 每个档位：规格 / 流量带宽 / 月付 / 年付 / 库存 / 推广链接 |
+| `库存/` | 1 | 2026-10-14 库存快照 |
+| `来源帖/` | 37 | NodeSeek 来源帖（正文 + 有信息量的评论） |
+| `数据库/` | 6 | 6 个 `.base`：厂商库 / 产品线库（11 视图）/ 套餐价格表（10 视图）/ 库存看板 / 库存快照 / 来源帖库 |
+
+生成脚本：`build-vault.py` → `build-bases.py` → `build-home.py`
+（**顺序重要**：`build-vault.py` 会清空并重建各目录，`.base` 必须在它之后生成）
+
 ## 目录结构
 
 ```
@@ -32,10 +49,14 @@ bagevm-vps/
 ├── index.html                 # 跳转到主页面
 ├── build-data.py              # 合并官网扫描 + 社区数据 -> data/bagevm-产品线数据.json
 ├── build-page.py              # 由数据生成 bagevm-vps-guide.html
+├── build-vault.py             # 写入 Obsidian 库（厂商/产品线/套餐/库存/来源帖）
+├── build-bases.py             # 生成 6 个 .base 数据库
+├── build-home.py              # 生成库首页.md
 ├── bagevm-store-scan.py       # 官网商店页扫描器
 └── data/
-    ├── bagevm-产品线数据.json      # 结构化产品线数据（生成网页用）
+    ├── bagevm-产品线数据.json      # 结构化产品线数据（生成网页与库用）
     ├── bagevm-store扫描.json       # 官网 12 个商店页原始扫描
     ├── bagevm-官网产品明细.json     # Obsidian 库官网产品条目（2026-10-09 快照）
     └── bagevm-nodeseek帖子.json    # NodeSeek 社区帖子元数据（37 篇）
 ```
+
